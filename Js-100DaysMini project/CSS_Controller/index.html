@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css-Genterator</Css-Genterator>
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="tool">
+            <div class="form-group">
+                <label for="all">All Corner<span id="all_value"></span></label>
+                <input type="range" value="10" min="0" max="300" id="all">
+
+                <label for="border">Boder size<span id="border_value"></span></label>
+                <input type="range" value="3" min="0" max="20" id="border">
+
+                <label for="border_style">Border Style</label>
+                <select id="border_style">
+                    <option>solid</option>
+                    <option>dotted</option>
+                    <option>dashed</option>
+                    <option>double</option>
+                    <option>groove</option>
+                    <option>ridge</option>
+                    <option>inset</option>
+                    <option>outset</option>
+                    <option>none</option>
+                    <option>hidden</option>
+                </select>
+
+                <textarea id="code"></textarea>
+
+                <button id="btnCopy">Copy Code</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
